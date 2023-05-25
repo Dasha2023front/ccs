@@ -43,10 +43,9 @@ document.addEventListener('click', (e) => {
     }
 });
 
+// мобильное меню
+
 const burgerToggle = document.querySelector(".header_burger_container");
-// const openModals = document.querySelectorAll(".open_modal");
-// const modalOrder = document.querySelector(".modal_order");
-// const closeModal = document.querySelector(".close_modal");
 const burger = document.querySelector(".header_burger");
 const anchorsMenu = document.getElementsByClassName("anchorMenu");
 const header = document.querySelector(".header");
@@ -68,14 +67,4 @@ function openMenu() {
 function openToModal() {
   modalOrder.classList.add("active");
 }
-// function closeToModal() {
-//   modalOrder.classList.remove("active");
-// }
-
 burgerToggle.addEventListener("click", openMenu);
-
-// for (let i = 0; i < openModals.length; i++) {
-//   openModals[i].addEventListener("click", openToModal);
-// }
-
-// closeModal.addEventListener("click", closeToModal);
